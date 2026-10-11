@@ -1,0 +1,134 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: white;
+}
+#First{
+    display: flex;
+    font-size: 40px;
+    font-weight:bolder;
+
+}
+
+#Delivery h2{
+    margin-bottom: 0px;
+}
+
+#Delivery select {
+    width: 130px;
+    font-weight: lighter;
+    margin-top: 0;
+    padding: 2px;
+    border: none;
+    cursor: pointer;
+}
+header input{
+    width: 400px;
+    height: 30px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+}
+button{
+    width: 70px;
+    height: 50px;
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    font-size: 20px;
+}
+#Second{
+    width: 100px;
+    height: 50px;
+    background: lightgray;
+    color:white;
+    cursor: pointer;
+    display: flex;
+    border-radius: 10px;
+}
+#Second p{
+    text-align: center;
+    right: 4px;
+    font-size: 14px; 
+    font-weight: bold; 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#banner{
+    width: 1200px;
+    padding: 0px 150px;
+    height: 260px;
+}
+.container{
+    display: flex;
+    column-gap: 40px;
+    padding: 10px 185px;
+
+}
+.container img{
+    width: 350px;
+
+}
+.scroll{
+    display: flex;
+    padding: 10px 150px;
+    overflow-x: scroll;
+    width: 1050px;
+}
+.scroll img{
+    width: 700px;
+    height: 150px;
+}
+.ll{
+     display: flex;
+    padding: 10px 150px;
+    overflow-x: scroll;
+    width: 1050px;
+}
+.ll img{
+    width: 700px;
+    height: 150px;
+}
+@media (max-width: 768px){
+    #banner{
+    width: 900px;
+    padding: 0px 40px;
+    height: 260px;
+}
+
+.container{
+    display: flex;
+    column-gap: 10px;
+    padding: 5px 99px;
+
+}
+.container img{
+    width: 250px;
+
+}
+.scroll{
+    display: flex;
+    padding: 5px 40px;
+    overflow-x: scroll;
+    width: 870px;
+}
+.scroll img{
+    width: 700px;
+    height: 150px;
+}
+.ll{
+     display: flex;
+    padding: 5px 40px;
+    overflow-x: scroll;
+    width: 870px;
+}
+.ll img{
+    width: 700px;
+    height: 150px;
+}
+}
+ 
